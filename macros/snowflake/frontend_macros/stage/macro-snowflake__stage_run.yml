@@ -1,0 +1,9 @@
+fileVersion: 1
+id: "snowflake__stage_run"
+macroString: |-
+    {#-- Utility macro: outputs a SQL function to create a multi active satellite V1 table. --#}
+    {%- macro datavault4coalesce__snowflake_stage_run(node, columns) -%}
+
+    {%- endmacro -%}
+name: macro
+type: Macro
