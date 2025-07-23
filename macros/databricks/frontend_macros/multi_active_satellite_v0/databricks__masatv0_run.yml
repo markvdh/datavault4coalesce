@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "80"
+id: "databricks__masatv0_run"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to run a multi-active satellite v0 table. --#}
   {%- macro datavault4coalesce__databricks_multi_active_satellite_v0_run(node, config, sources) -%}
@@ -107,5 +107,5 @@ macroString: |-
 
     {% endif %}
   {%- endmacro -%}
-name: databricks__masatv0_run
+name: macro
 type: Macro

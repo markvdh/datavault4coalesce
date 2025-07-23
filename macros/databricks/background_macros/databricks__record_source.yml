@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "64"
+id: "databricks__record_source"
 macroString: |-
      {#-----------------------------------------------------------------------------------------------#}
      {#-- DV Utility macro: generates a string as the record source.                                --#}
@@ -16,5 +16,5 @@ macroString: |-
           'Missing Dependencies!'
      {%- endif -%}
      {%- endmacro -%}
-name: databricks__record_source
+name: macro
 type: Macro

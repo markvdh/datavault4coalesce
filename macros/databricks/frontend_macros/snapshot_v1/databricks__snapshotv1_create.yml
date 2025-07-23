@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "102"
+id: "databricks__snapshotv1_create"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to create a snapshot v1 view. --#}
     {%- macro datavault4coalesce__databricks_snapshot_v1_create(node, columns) -%}
@@ -200,5 +200,5 @@ macroString: |-
 
         FROM active_logic_combined
     {%- endmacro -%}
-name: databricks__snapshotv1_create
+name: macro
 type: Macro

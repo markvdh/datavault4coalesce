@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "55"
+id: "databricks__error_key"
 macroString: |-
      {#---------------------------------------------------------------------------------------------#}
      {#-- DV Utility macro: Output error zero key for ghost record.                               --#}
@@ -46,5 +46,5 @@ macroString: |-
           {% set error_key = datavault4coalesce__databricks_as_constant(error_key) %}
           {{ error_key }}
      {%- endmacro -%}
-name: databricks__error_key
+name: macro
 type: Macro

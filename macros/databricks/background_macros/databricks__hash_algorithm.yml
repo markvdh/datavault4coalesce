@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "60"
+id: "databricks__hash_algorithm"
 macroString: |-
      {#---------------------------------------------------------------------------------------------#}
      {#-- DV Utility macro: Hashing algorithm.                                                    --#}
@@ -48,5 +48,5 @@ macroString: |-
           {{ hash_alg }}
 
      {%- endmacro -%}
-name: databricks__hash_algorithm
+name: macro
 type: Macro

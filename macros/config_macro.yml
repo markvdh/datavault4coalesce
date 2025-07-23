@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "0"
+id: "config_macro"
 macroString: |-
   {#------------------------------------------------------------------------------------------------------#}
   {#-- Global config macros for datavault4coalesce                                                     --#}

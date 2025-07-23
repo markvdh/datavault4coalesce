@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "69"
+id: "databricks__standardise_suffix"
 macroString: |-
      {%- macro datavault4coalesce__databricks_standardise_suffix(case_sensitive, hash_alg, is_hashdiff, datatype, zero_key, alias, multi_active_key, main_hashkey_col) -%}
      {%- set dict_result = {} -%}
@@ -78,5 +78,5 @@ macroString: |-
      {%- endif -%}
      {{ standardise_suffix }}
      {%- endmacro -%}
-name: databricks__standardise_suffix
+name: macro
 type: Macro

@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "76"
+id: "databricks__hub_run"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to run a hub table. --#}
   {%- macro datavault4coalesce__databricks_hub_run(node, config, sources, columns) -%}
@@ -104,5 +104,5 @@ macroString: |-
       {% endfor %}
     {% endif %}
   {%- endmacro -%}
-name: databricks__hub_run
+name: macro
 type: Macro

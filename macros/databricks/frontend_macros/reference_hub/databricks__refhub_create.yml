@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "90"
+id: "databricks__refhub_create"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to create a Reference Hub. --#}
   {%- macro datavault4coalesce__databricks_reference_hub_create(node, columns) -%}
@@ -19,5 +19,5 @@ macroString: |-
     )
     {%- if node.description | length > 0 %} COMMENT = '{{ node.description | escape  }}'{% endif %}
   {%- endmacro -%}
-name: databricks__refhub_create
+name: macro
 type: Macro

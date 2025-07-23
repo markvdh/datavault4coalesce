@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "57"
+id: "databricks__get_source_hash_key_column"
 macroString: |-
     {#----------------------------------------------------------------------#}
     {#-- Outputs name of a single hash key from the direct parent object. --#}
@@ -13,5 +13,5 @@ macroString: |-
         {%- endfor -%}
         {{- result.name -}}
     {%- endmacro -%}
-name: databricks__get_source_hash_key_column
+name: macro
 type: Macro

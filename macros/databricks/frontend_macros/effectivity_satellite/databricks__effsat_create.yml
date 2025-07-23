@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "73"
+id: "databricks__effsat_create"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to create an effectivity satellite table. --#}
   {%- macro datavault4coalesce__databricks_effectivity_satellite_create(node, columns) -%}
@@ -19,6 +19,6 @@ macroString: |-
     )
     {%- if node.description | length > 0 %} COMMENT = '{{ node.description | escape  }}'{% endif %}
   {%- endmacro -%}
-name: databricks__effsat_create
+name: macro
 type: Macro
 

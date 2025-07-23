@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "99"
+id: "databricks__satv1_create"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to create a Satellite View. --#}
     {%- macro datavault4coalesce__databricks_satellite_v1_create(node, columns, sources) -%}
@@ -26,5 +26,5 @@ macroString: |-
             {{ source.join }}
         {% endfor %}
     {%- endmacro -%}
-name: databricks__satv1_create
+name: macro
 type: Macro

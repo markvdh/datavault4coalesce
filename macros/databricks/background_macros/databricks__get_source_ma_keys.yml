@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "58"
+id: "databricks__get_source_ma_keys"
 macroString: |-
      {#-------------------------------------------------------------------------#}
      {#-- Outputs list of multi-active keys from the direct parent object     --#}
@@ -14,5 +14,5 @@ macroString: |-
           {%- endfor -%}
           {{- result|join(delimiter) -}}
      {%- endmacro -%}
-name: databricks__get_source_ma_keys
+name: macro
 type: Macro

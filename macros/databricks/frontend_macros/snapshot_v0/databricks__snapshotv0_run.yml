@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "101"
+id: "databricks__snapshotv0_run"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to create a snapshot v0 table. --#}
     {%- macro datavault4coalesce__databricks_snapshot_v0_run(node, columns) -%}
@@ -105,5 +105,5 @@ macroString: |-
             {{ config.postSQL }}
         {% endif %}
     {%- endmacro -%}
-name: databricks__snapshotv0_run
+name: macro
 type: Macro

@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "100"
+id: "databricks__snapshotv0_create"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to create a snapshot v0 table. --#}
   {%- macro datavault4coalesce__databricks_snapshot_v0_create(node, columns) -%}
@@ -19,5 +19,5 @@ macroString: |-
     )
     {%- if node.description | length > 0 %} COMMENT = '{{ node.description }}'{% endif %}
   {%- endmacro -%}
-name: databricks__snapshotv0_create
+name: macro
 type: Macro

@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "82"
+id: "databricks__nhlink_create"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to create a Non-Historized Link. --#}
     {%- macro datavault4coalesce__databricks_non_historized_link_create(node, columns) -%} 
@@ -19,5 +19,5 @@ macroString: |-
         )
         {%- if node.description | length > 0 %} COMMENT = '{{ node.description }}'{% endif %}
     {%- endmacro -%}
-name: databricks__nhlink_create
+name: macro
 type: Macro

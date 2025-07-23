@@ -1,8 +1,8 @@
 fileVersion: 1
-id: "54"
+id: "databricks__attribute_standardise"
 macroString: |-
   {%- macro datavault4coalesce__databricks_attribute_standardise() -%}
     CONCAT('\"', REPLACE(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(CAST([EXPRESSION] AS STRING)), r'\\', r'\\\\'), '[QUOTE]', '\"'), '[NULL_PLACEHOLDER_STRING]', '--'), '\"')
   {%- endmacro -%}
-name: databricks__attribute_standardise
+name: macro
 type: Macro

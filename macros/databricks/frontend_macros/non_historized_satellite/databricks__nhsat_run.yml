@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "85"
+id: "databricks__nhsat_run"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to run a Non-historized satellite table. --#}
     {%- macro datavault4coalesce__databricks_non_historized_satellite_run(node, columns) -%}
@@ -68,5 +68,5 @@ macroString: |-
             {{ node.override.run.script }}
         {% endif %}
     {%- endmacro -%}
-name: databricks__nhsat_run
+name: macro
 type: Macro

@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "56"
+id: "databricks__escape_column_name"
 macroString: |-
   {#-- Utility macro: wrap string input between escape characters --#}
   {%- macro datavault4coalesce__databricks_escape_column_name(column) -%}
@@ -9,5 +9,5 @@ macroString: |-
       
     {{ escaped_column_name }}
   {%- endmacro -%}
-name: databricks__escape_column_name
+name: macro
 type: Macro

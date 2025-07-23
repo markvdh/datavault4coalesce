@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "61"
+id: "databricks__hash"
 macroString: |-
     {#---------------------------------------------------------------------------------#}
     {#-- Main macro for DV2.0 hashing.                                               --#}
@@ -78,5 +78,5 @@ macroString: |-
         {%- endif -%}
     {%- endfor -%}
     {%- endmacro -%}
-name: databricks__hash
+name: macro
 type: Macro

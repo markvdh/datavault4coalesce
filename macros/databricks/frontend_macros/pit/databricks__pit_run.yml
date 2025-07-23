@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "87"
+id: "databricks__pit_run"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to run a Point in Time(PIT) table. --#}
   {%- macro datavault4coalesce__databricks_pit_run(node, columns) -%}
@@ -166,5 +166,5 @@ macroString: |-
       {{ node.override.run.script }}
     {% endif %}  
   {%- endmacro -%}
-name: databricks__pit_run
+name: macro
 type: Macro

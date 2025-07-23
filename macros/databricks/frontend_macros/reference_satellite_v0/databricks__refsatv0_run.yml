@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "93"
+id: "databricks__refsatv0_run"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to run a Reference Satellite V0. --#}
   {%- macro datavault4coalesce__databricks_reference_satellite_v0_run(node, columns) -%}
@@ -113,5 +113,5 @@ macroString: |-
       {% endfor %}
     {% endif %}
   {%- endmacro -%}
-name: databricks__refsatv0_run
+name: macro
 type: Macro

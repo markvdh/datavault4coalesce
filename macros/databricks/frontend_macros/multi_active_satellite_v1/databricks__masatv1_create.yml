@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "81"
+id: "databricks__masatv1_create"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to create a multi active satellite V1 table. --#}
     {%- macro datavault4coalesce__databricks_multi_active_satellite_v1_create(node, columns) -%}
@@ -26,5 +26,5 @@ macroString: |-
         {{ source.join }}
     {% endfor %}
     {%- endmacro -%}
-name: databricks__masatv1_create
+name: macro
 type: Macro

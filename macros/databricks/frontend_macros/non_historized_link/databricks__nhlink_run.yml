@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "83"
+id: "databricks__nhlink_run"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to run a Non-Historized Link. --#}
     {%- macro datavault4coalesce__databricks_non_historized_link_run(node, columns) -%}
@@ -63,5 +63,5 @@ macroString: |-
         {{ config.postSQL }}    
     {% endif %}
     {%- endmacro -%}
-name: databricks__nhlink_run
+name: macro
 type: Macro

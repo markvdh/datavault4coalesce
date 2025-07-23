@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "53"
+id: "databricks__as_constant"
 macroString: |-
     {#-- Utility macro: wrap input between escape characters --#}
     {%- macro datavault4coalesce__databricks_as_constant(column_str) -%}
@@ -15,5 +15,5 @@ macroString: |-
             {%- endif -%}
         {%- endif -%}
     {%- endmacro -%}
-name: databricks__as_constant
+name: macro
 type: Macro

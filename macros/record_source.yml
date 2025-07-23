@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "104"
+id: "record_source"
 macroString: |-
   {#-----------------------------------------------------------------------------------------------#}
   {#-- DV Utility macro: generates a string as the record source.                                --#}
@@ -15,5 +15,5 @@ macroString: |-
       {{ datavault4coalesce__databricks_record_source() }}
     {% endif %}
   {% endmacro %}
-name: record_source
+name: macro
 type: Macro

@@ -1,8 +1,8 @@
 fileVersion: 1
-id: "70"
+id: "databricks__string_to_date"
 macroString: |-
   {%- macro datavault4coalesce__databricks_string_to_date(format, timestamp) -%}
     TO_DATE('{{ timestamp }}', '{{ format }}')
   {%- endmacro -%}
-name: databricks__string_to_date
+name: macro
 type: Macro

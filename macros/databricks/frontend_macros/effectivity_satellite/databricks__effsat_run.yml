@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "74"
+id: "databricks__effsat_run"
 macroString: |-
     {#-- Utility macro: outputs a SQL function to run an effectivity satellite table. --#}
     {%- macro datavault4coalesce__databricks_effectivity_satellite_run(node, columns) -%}
@@ -300,5 +300,5 @@ macroString: |-
             AND t.{{ src_ldts }} = ri.{{ src_ldts }}
     )
     {%- endmacro -%}
-name: databricks__effsat_run
+name: macro
 type: Macro

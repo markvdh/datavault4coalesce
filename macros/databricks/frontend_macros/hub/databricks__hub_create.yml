@@ -1,5 +1,5 @@
 fileVersion: 1
-id: "75"
+id: "databricks__hub_create"
 macroString: |-
   {#-- Utility macro: outputs a SQL function to create a hub table. --#}
   {%- macro datavault4coalesce__databricks_hub_create(node, config, sources, columns) -%}
@@ -20,5 +20,5 @@ macroString: |-
     )
     {%- if node.description | length > 0 %} COMMENT = '{{ node.description }}'{% endif %}
   {% endmacro -%}
-name: databricks__hub_create
+name: macro
 type: Macro
