@@ -1,0 +1,9 @@
+fileVersion: 1
+id: databricks__stage_run
+macroString: |-
+  {#-- Utility macro: outputs a SQL function to create a multi active satellite V1 table. --#}
+  {%- macro datavault4coalesce__databricks_stage_run(node, columns) -%}
+
+  {%- endmacro -%}
+name: macro
+type: Macro
